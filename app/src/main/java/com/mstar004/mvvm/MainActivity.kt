@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         mViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
-
     }
 
     override fun onStart() {
